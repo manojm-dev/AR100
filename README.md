@@ -31,7 +31,7 @@ To get started with the ANSCER Simulation, follow these steps:
 3. Clone this repository to your local machine:
     ```bash
     cd ~/catkin_ws/src
-    git clone https://github.com/anscer/anscer_simulation.git
+    git clone https://github.com/anscer/AR100.git
 4. Navigate to your catkin workspace and build the packages. If you haven't set up a catkin workspace, you can follow the ROS documentation to create one.
     ```bash
     cd ~/catkin_ws
