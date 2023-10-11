@@ -58,7 +58,7 @@ You can create a map of the environment using the Simultaneous Localization and 
 2. Use the teleoperation package to manually explore the environment and build the map.
 3. Save the map using the map_server package:
     ```bash
-    rosrun map_server map_saver -f ~/<workspace_name>/src/anscer_simulation/anscer_navigation/maps/<map_name>
+    rosrun map_server map_saver -f ~/<workspace_name>/src/AR100/anscer_navigation/maps/<map_name>
     # Replace workspace_name with the name of the workspace you have created.
     # Replace map_name with the name of the map you want to provide.
 4. Once the map is saved, you can stop the anscer_slam package.
