@@ -34,12 +34,7 @@
         <color rgba="0.0 0 0 1.0"/>
     </material>
 
-    <!-- Materials for Gazebo -->
 
-    <!-- Material for the base link -->
-    <gazebo reference="base_link">
-        <material>Gazebo/Blue</material>
-    </gazebo>
 
     <!-- Material for differential drive wheels -->
     <xacro:macro name="wheel_material" params="prefix">

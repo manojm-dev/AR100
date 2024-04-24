@@ -103,11 +103,6 @@
     </sensor>
   </gazebo>
 
-  <!-- Main body -->
-  <gazebo reference="base_link">
-    <material>Gazebo/Blue</material>
-    <turnGravityOff>false</turnGravityOff>
-  </gazebo>
 
 
   <!-- For the differential drive wheels -->

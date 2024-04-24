@@ -21,7 +21,6 @@
   <link name="base_link">
     <xacro:box_inertia m="${base_link_mass}" w="${base_len}" h="${base_height}" d="${base_width}" xyz="${base_link_offset} 0.0 ${base_wheel_gap_z}" rpy="0.0 0.0 0.0" />
     <visual>
-      <material name="red" />
       <origin xyz="0 0.0 0" rpy="0.0 0.0 0.0" />
       <geometry>
         <mesh filename="package://anscer_description/meshes/amr_chassis.dae" scale="1 1 1"/>

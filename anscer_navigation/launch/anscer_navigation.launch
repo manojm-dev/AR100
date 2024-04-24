@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <launch>
-    <arg name="map_name" default=""/>
+    <arg name="map_name" default="map"/>
     <include file="$(find anscer_navigation)/launch/include/common.launch.xml">
         <arg name="map_name" value="$(arg map_name)"/>
     </include>
